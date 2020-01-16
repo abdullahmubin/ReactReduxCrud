@@ -19,7 +19,7 @@ const appSettings = (state = initialState.appSettings, action) => {
             appSettings = ckEdit(state, action.isEditMode) ; 
             return appSettings;
         default:
-            return appSettings = state;
+            return state;
     }
 
 }
