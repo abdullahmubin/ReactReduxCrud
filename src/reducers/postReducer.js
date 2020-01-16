@@ -44,7 +44,7 @@ const posts = (state = initialState.postList, action) => {
                 postList = updateById(state, action);
                 return postList;
         default:
-            return postList = state;
+            return state;
     }
 
 }
